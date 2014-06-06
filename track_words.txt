@@ -1,0 +1,46 @@
+---------------------------------------------------------------------------------------
+---- Location analysis
+--tracking words:
+
+mty
+monterrey
+sanpedro
+spdp
+garzagarcia
+calzada del valle
+margain
+av vasconselos
+
+--accounts: 
+@cicmty 
+@implansp 
+@somosbicibles 
+@ciac_mty 
+@alertamty_com 
+@regioseguro
+
+---------------------------------------------------------------------------------------
+---- Traffic analysis
+choque
+alcance
+chocar
+chocaron
+accidente
+vial
+peatonal
+peligro
+peligroso
+tráfico
+calzada
+gomez morin
+alfonso reyes
+tránsito
+san pedro
+monterrey
+robo
+robaron
+semáforo
+
+--------------------------------------------------------
+---- concat to endpoint:
+mty, monterrey, sanpedro, spdp, garzagarcia, calzada del valle, margain, av vasconselos, cicmty , implansp , somosbicibles , ciac_mty, alertamty_com, regioseguro, choque, alcance, chocar, chocaron, accidente, vial, peatonal, peligro, peligroso, tráfico, trafico, calzada, gomez morin, gómez morín, gómez morin, gomez morín, alfonso reyes, tránsito, transito, robo, robaron, semáforo, semaforo
