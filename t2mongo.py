@@ -3,10 +3,10 @@ import json
 import pymongo
 import m_tweetsDAO
 
-consumer_key = '6a8eiydF31fyJrJ3vJFtmpHV9'
-consumer_secret = '8tyZ34jIk2AM3WxN18JimbRC58FRyzTUSX83l7lC7Tz54rrO2H'
-access_token_key = '80065688-IMt9thIgmN0CM7oNK0tUGAVoC6Nkdr01XNWhl3Eu1'
-access_token_secret = 'xUjSwaK5PGAVRhFJj37U1OqJ44iISWqXAwrJOsIRaayKP'
+consumer_key = ''
+consumer_secret = ''
+access_token_key = ''
+access_token_secret = ''
 SEARCH_TERM = ''
 
 #sys.stdout.encoding='utf-8'
@@ -18,7 +18,7 @@ api = TwitterAPI(consumer_key, consumer_secret, access_token_key, access_token_s
 #r = api.request('search/tweets', {'q':SEARCH_TERM, 'geocode':'25.66173253,-100.35253104,5km','count':'450','until':'2015-05-21'})
 ## with access Token
 r = api.request('statuses/filter', {'track':'mty,monterrey,sanpedro,spdp,garzagarcia,calzada del valle,margain,av vasconselos','locations':'-100.598350, 25.547178, -100.036674, 25.856532'})
-#r = api.request('statuses/filter',{'track':'mty, monterrey, sanpedro, spdp, garzagarcia, calzada del valle, margain, av vasconselos, cicmty , implansp , somosbicibles , ciac_mty, alertamty_com, regioseguro, choque, alcance, chocar, chocaron, accidente, vial, peatonal, peligro, peligroso, tráfico, trafico, calzada, gomez morin, gómez morín, gómez morin, gomez morín, alfonso reyes, tránsito, transito, robo, robaron, semáforo, semaforo', 'locations':'-100.598350, 25.547178, -100.036674, 25.856532'})
+#r = api.request('statuses/filter',{'track':'mty, monterrey, sanpedro, spdp, garzagarcia, calzada del valle, margain, av vasconselos, cicmty , implansp , somosbicibles , ciac_mty, alertamty_com, regioseguro, choque, alcance, chocar, chocaron, accidente, vial, peatonal, peligro, peligroso, trï¿½fico, trafico, calzada, gomez morin, gï¿½mez morï¿½n, gï¿½mez morin, gomez morï¿½n, alfonso reyes, trï¿½nsito, transito, robo, robaron, semï¿½foro, semaforo', 'locations':'-100.598350, 25.547178, -100.036674, 25.856532'})
 
 #first, setup mongodb connection
 connection_string = "mongodb://localhost"
